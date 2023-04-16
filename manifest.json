@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "URL to CSV",
+  "version": "1.0",
+  "description": "Get URLs of all open tabs and copy them to clipboard as CSV.",
+  "permissions": ["tabs", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png"
+    }
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
